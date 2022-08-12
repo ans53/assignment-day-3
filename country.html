@@ -1,0 +1,48 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //program to sort countries by population
+      let countries=[
+        {
+        name: "mexico",
+        capital: "mexico city",
+        population: 1200,
+      },
+
+      {
+        name: "finland",
+        capital: "helsinki",
+        population: 5000,
+      },
+
+      {
+        name: "india",
+        capital: "new delhi",
+        population: 4000,
+      },
+
+      {
+        name: "germany",
+        capital: "berlin",
+        population: 500,
+      }
+    ]
+     let i
+    for(i=0;i<=4;i++)
+    {
+        if(countries[i].population<2000)
+        {
+            console.log(countries[i].name);
+        }
+    }
+
+    </script>
+</body>
+</html>
